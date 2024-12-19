@@ -1,24 +1,20 @@
-// Task 1
-let fruits = ['apple', 'banana', 'orange'];
-
-fruits.push('grape');
-console.log('After push:', fruits);
-
-fruits.pop();
-console.log('After pop:', fruits);
-
-// Task 2
-let numbers = [3, 1, 5, 2, 4];
-
-numbers.sort((a, b) => a - b);
-console.log('Sorted numbers:', numbers);
-
+// Task 1 
+let message = "Hello, World!";  
+console.log(`Length of the string: ${message.length}`);  
+  
+// Task 2 
+let text = "Hello, World!";  
+console.log(`Original string: ${text}`);  
+console.log(`Uppercase string: ${text.toUpperCase()}`);  
+console.log(`Lowercase string: ${text.toLowerCase()}`);  
+  
 // Task 3
-let doubledNumbers = numbers.map(num => num * 2);
-console.log('Doubled numbers:', doubledNumbers);
-
-let oddNumbers = numbers.filter(num => num % 2 !== 0);
-console.log('Odd numbers:', oddNumbers);
-
-let sum = numbers.reduce((total, num) => total + num, 0);
-console.log('Sum of numbers:', sum);
+let sentence = "The quick brown fox jumps over the lazy dog";  
+console.log(`Original string: ${sentence}`);  
+console.log(`Substring from index 4 to 9: ${sentence.substring(4, 9)}`);  
+console.log(`Substring from index 10: ${sentence.substring(10)}`);  
+  
+// Task 4  
+let words = "The quick brown fox";  
+console.log(`Original string: ${words}`);  
+console.log(`Array of words: ${words.split(" ")}`);  
